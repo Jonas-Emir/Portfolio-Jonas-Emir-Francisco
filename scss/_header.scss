@@ -1,0 +1,76 @@
+/* Style Header */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8.8rem;
+  background-color: #024959;
+  display: flex;
+  z-index: 2022;
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .redes-sociais {
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .redes-sociais .icons .linkedin:hover {
+    transform: scale(1.20);
+    transition: .3s;
+  }
+
+  .redes-sociais .icons .git:hover {
+    transform: scale(1.20);
+    transition: .3s;
+  }
+
+  .redes-sociais .icons {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-family: 'Sora', sans-serif;
+      font-size: 20px;
+      color: var(--white);
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    margin-right: 0.1rem;
+  }
+
+  nav ul li {
+    margin-right: 0.1rem;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  btn-primary {
+    padding: 0.9rem 3.4rem;
+  }
+}
